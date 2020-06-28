@@ -31,7 +31,6 @@ conda create --name <env> --file requirements.txt
 For pretraining the Triplet GAN we have used *Improved Techniques with GAN* for without the triplet loss function.
 
 For Pretraining for MNIST data use `pretrain.py --config_file configs/pretrain_gan.yml`
-Results of pretraining are shown in Figure - 
 
 ## Training Triplet GAN
 
