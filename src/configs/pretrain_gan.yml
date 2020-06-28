@@ -1,0 +1,22 @@
+DATASET:
+  TRAIN_IMAGES_DIR: "../../data/train/images"
+  TRAIN_LABELS: "../../data/train/train.csv"
+
+  VAL_IMAGES_DIR: "../../data/test/images"
+  VAL_LABELS: "../../data/test/test.csv"
+
+SYSTEM:
+  DEBUG: False
+  SEED: 42
+  USE_GPU: True
+TRAIN:
+  BASE_LR: 0.003
+  
+  MODEL_NAME: "pretrained"
+  SAVE_DIR: "./pytorch-ckpt/"
+  START_EPOCH: 0
+  TOTAL_EPOCHS: 500
+  BATCH_SIZE : 256
+  TOTAL_IMAGES : 100
+  TOTAL_FEATURES : 16
+  

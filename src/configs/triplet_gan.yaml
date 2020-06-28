@@ -1,0 +1,23 @@
+DATASET:
+  TRAIN_IMAGES_DIR: "../../data/train/images"
+  TRAIN_DIR: "../../data"
+
+  VAL_IMAGES_DIR: "../../data/test/images"
+  VAL_LABELS: "../../data/test/test.csv"
+  VAL_TRIPLET_LABELS: "../../data/test/test.csv"
+SYSTEM:
+  DEBUG: True
+  SEED: 42
+  USE_GPU: True
+TRAIN:
+  BASE_LR: 0.0003
+  EVAL_STEP: 100
+  MODEL_NAME: "baseline"
+  SAVE_DIR: "./pytorch-ckpt/"
+  START_EPOCH: 0
+  TOTAL_EPOCHS: 500
+  BATCH_SIZE : 128
+  TOTAL_IMAGES : 100
+  TOTAL_FEATURES : 16
+  LOAD_EPOCH : 50
+  

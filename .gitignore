@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+data/*
 # C extensions
 *.so
 
@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+src/baseline/.vscode/*
+.vscode/*
+src/pytorch-ckpt/*
